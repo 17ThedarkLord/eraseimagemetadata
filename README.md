@@ -1,3 +1,6 @@
+IF THE README LOOKS WEIRD, CLICK ON "RAW".
+
+
 ####Created by: 17ThedarkLord
 ####Credits to: 17ThedarkLord & Phil Harvey (the order has no meaning)
 ####I don't reply to any pull-requests about this tool because I did it actually only for my own use & I'm very busy.
