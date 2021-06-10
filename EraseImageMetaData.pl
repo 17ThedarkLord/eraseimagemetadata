@@ -4,13 +4,13 @@ use Image::ExifTool qw(:Public);																	#https://metacpan.org/release/I
 
 my @files;
 if(@ARGV != 2) {
-	print("####Invalid parameter amount. Read the 'Usage'.\n");
+	print("!!!Invalid parameter amount. Read the 'Usage'.\n");
 	Info();
 	exit;
 }
 
 if($ARGV[0] eq '-l') {
-	print("####A file list gets processed.\n");
+	print("###A file list gets processed.\n");
 	open FILELIST, "<", "$ARGV[1]";
 	@files = <FILELIST>;
 	close FILELIST;
@@ -28,7 +28,7 @@ if($ARGV[0] eq '-l') {
 	CImgMD(@files);
 	COutput();
 } else {
-	print("####Invalid parameter amount. Read the 'Usage'.\n");
+	print("!!!Invalid parameter amount. Read the 'Usage'.\n");
 	Info();
 	exit;
 }
